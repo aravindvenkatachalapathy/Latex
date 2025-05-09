@@ -856,7 +856,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/cmbrmb10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
@@ -912,6 +911,7 @@ OUTPUT .aux/frontmatter/Abstract.aux
 INPUT ./frontmatter/Abstract.tex
 INPUT ./frontmatter/Abstract.tex
 INPUT frontmatter/Abstract.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf/tex/latex/tex-gyre/t1qzc.fd
 INPUT /usr/share/texmf/tex/latex/tex-gyre/t1qzc.fd
@@ -929,6 +929,14 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
 OUTPUT .aux/paper..toc
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT .aux/paper..lof
+INPUT .aux/paper..lof
+INPUT .aux/paper..lof
+OUTPUT .aux/paper..lof
+INPUT .aux/paper..lot
+INPUT .aux/paper..lot
+INPUT .aux/paper..lot
+OUTPUT .aux/paper..lot
 INPUT ./Thesisfolder/01_introduction.tex
 INPUT ./Thesisfolder/01_introduction.tex
 OUTPUT .aux/Thesisfolder/01_introduction.aux

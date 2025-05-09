@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.28)  9 MAY 2025 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.28)  9 MAY 2025 15:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1687,7 +1687,19 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 
 
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}] [4
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}] (.aux/paper..lof)
+\tf@lof=\write6
+\openout6 = `paper..lof'.
+
+ [4
+
+] (.aux/paper..lot)
+\tf@lot=\write7
+\openout7 = `paper..lot'.
+
+ [5
+
+] [6
 
 ]
 \openout2 = `Thesisfolder/01_introduction.aux'.
@@ -1703,7 +1715,7 @@ Chapter 1.
 
  (./Thesisfolder/02_Numerics.tex
 Chapter 2.
-<Figures/WindSpectra.png, id=217, 1349.04pt x 524.96124pt>
+<Figures/WindSpectra.png, id=249, 1349.04pt x 524.96124pt>
 File: Figures/WindSpectra.png Graphic file (type png)
 <use Figures/WindSpectra.png>
 Package pdftex.def Info: Figures/WindSpectra.png  used on input line 7.
@@ -1748,7 +1760,7 @@ File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 58.
  [5] [6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [7] [8] [9] [10]
 Chapter 3.
-<Figures/aerodynamics_streamtube.png, id=310, 1058.45438pt x 749.04843pt>
+<Figures/aerodynamics_streamtube.png, id=340, 1058.45438pt x 749.04843pt>
 File: Figures/aerodynamics_streamtube.png Graphic file (type png)
 <use Figures/aerodynamics_streamtube.png>
 Package pdftex.def Info: Figures/aerodynamics_streamtube.png  used on input line 237.
@@ -1756,7 +1768,7 @@ Package pdftex.def Info: Figures/aerodynamics_streamtube.png  used on input line
 [11
 
 ]
-<Figures/blade_element.png, id=323, 1272.755pt x 397.485pt>
+<Figures/blade_element.png, id=353, 1272.755pt x 397.485pt>
 File: Figures/blade_element.png Graphic file (type png)
 <use Figures/blade_element.png>
 Package pdftex.def Info: Figures/blade_element.png  used on input line 287.
@@ -1817,32 +1829,32 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\T1/lmr/m/n/12 (+20) WindEurope. \T1/lmss/m/n/12 (+20) Lat-est Wind En-ergy Data for Eu-rope -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \T1/lmss/m/n/12 (+20) Au-tumn 2024\T1/lmr/m/n/12 (+20) . Ac-cessed: 2024-12-11. \T1/lmr/bx/n/12 (+20) 2024     \T1/lmr/m/sc/10 (+20) url\T1/lmr/m/n/10 (+20) :
  []
 
 
-Overfull \hbox (86.18158pt too wide) in paragraph at lines 72--72
+Overfull \hbox (86.18158pt too wide) in paragraph at lines 74--74
 [][][]
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 72--72
+Underfull \hbox (badness 1776) in paragraph at lines 74--74
 []\T1/lmr/m/n/12 (+20) Tanja Mücke, David Klein-hans, and Joachim Peinke. \T1/lmss/m/n/12 (+20) At-mo-spheric
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 72--72
+Underfull \hbox (badness 2334) in paragraph at lines 74--74
 \T1/lmss/m/n/12 (+20) tur-bu-lence and its in-flu-ence on the al-ter-nat-ing loads on wind tur-
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 72--72
+Underfull \hbox (badness 1460) in paragraph at lines 74--74
 \T1/lmss/m/n/12 (+20) bines\T1/lmr/m/n/12 (+20) . \T1/lmr/m/sl/12 (+20) Wind En-ergy\T1/lmr/m/n/12 (+20) , \T1/lmr/bx/n/12 (+20) 2011\T1/lmr/m/n/10 (+20) .  \T1/lmr/m/sc/10 (+20) doi\T1/lmr/m/n/10 (+20) : [][][]  eprint:
  []
 
@@ -1851,32 +1863,32 @@ Underfull \hbox (badness 1460) in paragraph at lines 72--72
 
 
 ]
-Underfull \hbox (badness 2512) in paragraph at lines 72--72
+Underfull \hbox (badness 2512) in paragraph at lines 74--74
 []\T1/lmr/m/n/12 (+20) Sylvio Bistafa. \T1/lmss/m/n/12 (+20) On the de-vel-op-ment of the Navier-Stokes equa-tion
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 72--72
+Underfull \hbox (badness 3872) in paragraph at lines 74--74
 \T1/lmss/m/n/12 (+20) by Navier\T1/lmr/m/n/12 (+20) . \T1/lmr/m/sl/12 (+20) Re-vista Brasileira de En-sino de Física\T1/lmr/m/n/12 (+20) , \T1/lmr/bx/n/12 (+20) 2017\T1/lmr/m/n/10 (+20) .  \T1/lmr/m/sc/10 (+20) doi\T1/lmr/m/n/10 (+20) :
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 72--72
+Underfull \hbox (badness 7869) in paragraph at lines 74--74
 []\T1/lmr/m/n/12 (+20) Philippe Spalart. \T1/lmss/m/n/12 (+20) Trends in tur-bu-lence treat-ments\T1/lmr/m/n/12 (+20) . \T1/lmr/bx/n/12 (+20) 2000\T1/lmr/m/n/10 (+20) .  \T1/lmr/m/sc/10 (+20) doi\T1/lmr/m/n/10 (+20) :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\T1/lmr/m/n/12 (+20) G. In-gram. \T1/lmss/m/n/12 (+20) Wind Tur-bine Blade Anal-y-sis Us-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \T1/lmss/m/n/12 (+20) ing the Blade El-e-ment Mo-men-tum Method\T1/lmr/m/n/12 (+20) .
  []
 
 
-Overfull \hbox (254.64868pt too wide) in paragraph at lines 72--72
+Overfull \hbox (254.64868pt too wide) in paragraph at lines 74--74
 [][][]\T1/lmr/m/n/12 (-20) .
  []
 
@@ -1898,18 +1910,18 @@ Package logreq Info: Writing requests to 'paper..run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57001 strings out of 476106
- 1217215 string characters out of 5793933
+ 57023 strings out of 476106
+ 1217484 string characters out of 5793933
  2089219 words of memory out of 5000000
- 77530 multiletter control sequences out of 15000+600000
+ 77542 multiletter control sequences out of 15000+600000
  727698 words of font info for 327 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  94i,14n,123p,1397b,2443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qzcmi.pfb>
-Output written on .aux/paper..pdf (27 pages, 831449 bytes).
+Output written on .aux/paper..pdf (29 pages, 833062 bytes).
 PDF statistics:
- 681 PDF objects out of 1000 (max. 8388607)
- 537 compressed objects within 6 object streams
- 116 named destinations out of 1000 (max. 500000)
- 92561 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 565 compressed objects within 6 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 92577 words of extra memory for PDF output out of 106986 (max. 10000000)
 
