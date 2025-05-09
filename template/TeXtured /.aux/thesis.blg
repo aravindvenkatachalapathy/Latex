@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '.aux/thesis.blg'
+[63] biber:340> INFO - === Thu May  8, 2025, 23:57:19
+[77] Biber.pm:419> INFO - Reading '.aux/thesis.bcf'
+[132] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[143] Biber.pm:4419> INFO - Processing section 0
+[153] Biber.pm:4610> INFO - Looking for bibtex file 'preamble/bibliography.bib' for section 0
+[153] bibtex.pm:1713> INFO - LaTeX decoding ...
+[158] bibtex.pm:1519> INFO - Found BibTeX data source 'preamble/bibliography.bib'
+[201] Biber.pm:1670> INFO - Datamodel validation starting
+[202] Biber.pm:1720> INFO - Datamodel validation complete
+[210] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[210] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[211] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[211] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[218] bbl.pm:660> INFO - Writing '.aux/thesis.bbl' with encoding 'UTF-8'
+[220] bbl.pm:763> INFO - Output to .aux/thesis.bbl
