@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{Rettenmeier2013}
+A.~Rettenmeier, J.~Anger, O.~Bischoff, M.~Hofsäß, D.~Schlipf, and I.~Würth, ``Nacelle-based lidar systems,'' in {\em Remote Sensing for Wind Energy} (D.~W. Energy, ed.), no.~0029(EN) in DTU Wind Energy E-Report, DTU Wind Energy, June 2013.
+\newblock Available online.
+
+\bibitem{windeurope2024}
+{WindEurope}, ``Latest wind energy data for europe - autumn 2024,'' 2024.
+\newblock Accessed: 2024-12-11.
+
+\bibitem{Mann1994}
+J.~Mann, ``The spatial structure of neutral atmospheric surface-layer turbulence,'' {\em Journal of Fluid Mechanics}, vol.~273, p.~141–168, 1994.
+
+\bibitem{kaimal1972}
+J.~C. Kaimal, J.~C. Wyngaard, Y.~Izumi, and O.~R. Coté, ``Spectral characteristics of surface-layer turbulence,'' {\em Quarterly Journal of the Royal Meteorological Society}, vol.~98, no.~417, pp.~563--589, 1972.
+
+\bibitem{veers2023}
+P.~Veers, C.~L. Bottasso, L.~Manuel, J.~Naughton, L.~Pao, J.~Paquette, A.~Robertson, M.~Robinson, S.~Ananthan, T.~Barlas, A.~Bianchini, H.~Bredmose, S.~G. Horcas, J.~Keller, H.~A. Madsen, J.~Manwell, P.~Moriarty, S.~Nolet, and J.~Rinker, ``Grand challenges in the design, manufacture, and operation of future wind turbine systems,'' {\em Wind Energy Science}, vol.~8, no.~7, pp.~1071--1131, 2023.
+
+\bibitem{kruger2022}
+S.~Krüger, G.~Steinfeld, M.~Kraft, and L.~J. Lukassen, ``Validation of a coupled atmospheric--aeroelastic model system for wind turbine power and load calculations,'' {\em Wind Energy Science}, vol.~7, no.~1, pp.~323--344, 2022.
+
+\bibitem{NREL5MW}
+J.~Jonkman, S.~Butterfield, W.~Musial, and G.~Scott, ``Definition of a 5-mw reference wind turbine for offshore system development,'' 2 2009.
+
+\bibitem{kosovic2025}
+B.~Kosovi\'c, S.~Basu, J.~Berg, L.~K. Berg, S.~E. Haupt, X.~G. Lars\'en, J.~Peinke, R.~J. A.~M. Stevens, P.~Veers, and S.~Watson, ``Impact of atmospheric turbulence on performance and loads of wind turbines: Knowledge gaps and research challenges,'' {\em Wind Energy Science Discussions}, vol.~2025, pp.~1--67, 2025.
+
+\bibitem{Mucke2011}
+T.~Mücke, D.~Kleinhans, and J.~Peinke, ``Atmospheric turbulence and its influence on the alternating loads on wind turbines,'' {\em Wind Energy}, vol.~14, no.~2, pp.~301--316, 2011.
+
+\bibitem{Doubrawa2019}
+P.~Doubrawa, M.~Churchfield, M.~Godvik, and S.~Sirnivas, ``Load response of a floating wind turbine to turbulent atmospheric flow,'' {\em Applied Energy}, vol.~242, pp.~1588--1599, 05 2019.
+
+\bibitem{NSeqn}
+S.~Bistafa, ``On the development of the navier-stokes equation by navier,'' {\em Revista Brasileira de Ensino de Física}, vol.~40, 11 2017.
+
+\bibitem{mocket2009}
+C.~Mockett, ``A comprehensive study of detached-eddy simulation,'' 01 2009.
+
+\bibitem{spalart2000}
+P.~Spalart, ``Trends in turbulence treatments,'' 06 2000.
+
+\bibitem{maronga2015}
+B.~Maronga, M.~Gryschka, R.~Heinze, F.~Hoffmann, F.~Kanani-Sühring, M.~Keck, K.~Ketelsen, M.~O. Letzel, M.~Sühring, and S.~Raasch, ``The parallelized large-eddy simulation model (palm) version 4.0 for atmospheric and oceanic flows: model formulation, recent developments, and future perspectives,'' {\em Geoscientific Model Development}, vol.~8, no.~8, pp.~2515--2551, 2015.
+
+\bibitem{raasch2001}
+S.~Raasch and M.~Schr{\"o}ter, ``Palm - a large-eddy simulation model performing on massively parallel computers,'' {\em Meteorologische Zeitschrift}, vol.~10, pp.~363--372, 10 2001.
+
+\bibitem{ingram2011blade}
+G.~Ingram, ``Wind turbine blade analysis using the blade element momentum method.'' \url{https://www.academia.edu/1749333/Wind_Turbine_Blade_Analysis_using_the_Blade_Element_Momentum_Method}, October 2011.
+\newblock Available online.
+
+\bibitem{fastV3}
+J.~M. Jonkman and M.~L. Buhl, Jr, ``Fast user's guide - updated august 2005,'' 10 2005.
+
+\end{thebibliography}

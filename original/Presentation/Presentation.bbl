@@ -1,0 +1,58 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Bossanyi2000a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=816424d921fab50d6d7b7e8b2e79c23d}{%
+           family={Bossanyi},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd.}%
+      }
+      \strng{namehash}{816424d921fab50d6d7b7e8b2e79c23d}
+      \strng{fullhash}{816424d921fab50d6d7b7e8b2e79c23d}
+      \strng{bibnamehash}{816424d921fab50d6d7b7e8b2e79c23d}
+      \strng{authorbibnamehash}{816424d921fab50d6d7b7e8b2e79c23d}
+      \strng{authornamehash}{816424d921fab50d6d7b7e8b2e79c23d}
+      \strng{authorfullhash}{816424d921fab50d6d7b7e8b2e79c23d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1099-1824}
+      \field{journaltitle}{Wind Energy}
+      \field{number}{3}
+      \field{title}{The Design of closed loop controllers for wind turbines}
+      \field{volume}{3}
+      \field{year}{2000}
+      \field{pages}{149\bibrangedash 163}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1002/we.34
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

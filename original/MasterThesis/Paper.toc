@@ -1,0 +1,27 @@
+\babel@toc {english}{}\relax 
+\thispagestyle {Preamble}
+\contentsline {chapter}{List of Figures}{vi}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}%
+\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Numerics governing the atmospheric flows and Aeroelastic Simulation}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Wind}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Kaimal Spectrum}{4}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}The Governing Equations of flow of motion}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Navier-Stokes equations}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Turbulence Modeling}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Direct Numerical Simulation (DNS) and its limitations:}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Reynolds-Averaged Navier-Stokes (RANS) Equations}{7}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Large Eddy Simulation (LES)}{8}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Aeroelastic Simulation of a Wind Turbine}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Blade Element Momentum (BEM) Theory -4 pages}{11}{subsection.2.3.1}%
+\contentsline {subsubsection}{\nonumberline Momentum Theory}{11}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Blade Element Theory}{12}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {2.3.2}Structural Dynamics of Wind Turbines}{14}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Numerical Flow model of a Wind Turbine}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The Actuator Line Model}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The Actuator Disk Model}{16}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}The Actuator Sector Model}{16}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Summary}{17}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Conclusion and Outlook}{18}{chapter.4}%
+\contentsline {chapter}{\nonumberline Bibliography}{19}{chapter*.11}%

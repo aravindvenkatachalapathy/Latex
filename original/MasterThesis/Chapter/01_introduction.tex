@@ -1,0 +1,33 @@
+\chapter{Introduction and Motivation} \label{cha:INT}
+
+
+Wind energy has become a cornerstone of the global transition towards sustainable and renewable energy sources. 
+Wind energy promises to be one of the major contributors to today’s renewable energy production \cite{windeurope2024}
+The efficiency and reliability of wind turbines are profoundly influenced by the complex interactions between the atmospheric boundary layer and turbine aerodynamics. 
+Understanding these interactions is essential for optimizing turbine design, layout of wind farms, 
+and operational strategies to maximize power output while minimizing structural loads and fatigue.
+
+The IEC standard for wind turbine design (IEC 61400-1) recommends two primary turbulence models to represent atmospheric inflow: the Mann spectral tensor model \cite{Mann1994} and the Kaimal spectral model with an associated exponential coherence function \cite{kaimal1972}. Both models are stationary and were developed under the assumption of neutral atmospheric stratification within the surface layer. However, the spectral formulations and associated parameters are largely derived from measurements collected using relatively short meteorological masts \cite{kaimal1972}, which limits their ability to accurately characterize inflow conditions encountered by modern wind turbines—particularly those operating above the surface layer and in more complex atmospheric regimes.
+
+While recent advancements have led to more comprehensive and realistic representations of atmospheric conditions, several key phenomena remain absent from current inflow models—many of which could have a significant impact on wind turbine design loads. Notably, standard design inflow conditions often neglect wind veer, among other dynamic features. Despite these limitations and known inaccuracies, the wind energy industry has not observed widespread structural failures, suggesting that conservative assumptions—such as overly energetic inflow turbulence and large safety factors—have contributed to robust, if potentially over-engineered, designs. However, the increasing size and hub height of modern wind turbines raise concerns about the adequacy of these conservative approaches for cutting-edge design and safety margin optimization \cite{veers2023}. Moreover, extreme atmospheric events—such as hurricanes, thunderstorms, and downbursts—exhibit spatiotemporal characteristics that deviate substantially from those captured by current IEC design load cases, indicating the need for specialized consideration in modeling efforts.
+
+Accurately estimating the influence of atmospheric boundary layer turbulence on fatigue loading and power output requires improved characterization of turbulence at the operating heights of modern turbines, which often extend well above the surface layer. This need is particularly pronounced for offshore wind applications. To better capture the dynamically evolving nature of atmospheric turbulence, high-resolution simulations such as large-eddy simulations (LES) must incorporate low-frequency, mesoscale-driven fluctuations. Achieving this requires moving beyond idealized boundary conditions and employing fully coupled mesoscale-to-microscale modeling frameworks. However, the computational cost of LES coupled with detailed aeroelastic turbine models often limits their practical application, especially in wind farm-scale simulations.
+
+This thesis focuses on the development, enhancement, and validation of a coupled 
+atmospheric–aeroelastic modeling framework that integrates the LES tool PALM (Parallelised Large-Eddy Simulation Model) with the aeroelastic code FAST (Fatigue, Aerodynamics, Structures, and Turbulence). 
+This coupling aims to combine the strengths of both models: PALM's capability to simulate realistic atmospheric turbulence and FAST's detailed calculation of turbine structural loads and power output.
+
+An innovative actuator sector method (ASM) developed by \cite{kruger2022} is employed to bridge the temporal and spatial 
+resolution differences between PALM and FAST, enabling larger LES time steps and significantly reducing computational costs without compromising the fidelity of the turbine load and power calculations. 
+This approach addresses limitations found in traditional actuator line models by using wind speed data upstream of the rotor plane and incorporating induction effects via the SWIRL model.
+
+The validation of this coupled framework involves two stages: first, simulations of the generic National Renewable Energy Laboratory (NREL) 5 MW turbine \cite{NREL5MW}
+to benchmark against existing models and evaluate computational efficiency; second, comparison with field measurements from an Enercon Turbine located in Germany to assess 
+the model's accuracy in real atmospheric conditions.
+
+Results demonstrate that the PALM–FAST coupling with ASM reliably reproduces turbine power curves, load spectra, and the influence of different atmospheric stabilities on turbine behavior,  while offering substantial reductions in computational time compared to traditional actuator line approaches.
+
+Through this work, the thesis contributes to advancing computational wind energy research by providing a validated, efficient, 
+and detailed modeling tool suitable for investigating turbine responses to complex atmospheric flows, with potential applications in wind farm load analyses and environmental impact assessments.
+
+
