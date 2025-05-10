@@ -31,8 +31,8 @@
       \strng{authorbibnamehash}{648fa5cbd42e164744218a1c3172a81d}
       \strng{authornamehash}{648fa5cbd42e164744218a1c3172a81d}
       \strng{authorfullhash}{648fa5cbd42e164744218a1c3172a81d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2024-12-11}
@@ -59,8 +59,8 @@
       \strng{authorbibnamehash}{e6d4488fbc795a903e3543a0f01e7ad5}
       \strng{authornamehash}{e6d4488fbc795a903e3543a0f01e7ad5}
       \strng{authorfullhash}{e6d4488fbc795a903e3543a0f01e7ad5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Fluid Mechanics}
@@ -99,8 +99,8 @@
       \strng{authorbibnamehash}{dc4fe1c59f94234e7afa84763856b361}
       \strng{authornamehash}{dc4fe1c59f94234e7afa84763856b361}
       \strng{authorfullhash}{dc4fe1c59f94234e7afa84763856b361}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract The behaviour of spectra and cospectra of turbulence in the surface layer is described within the framework of similarity theory using wind and temperature fluctuation data obtained in the 1968 AFCRL Kansas experiments. With appropriate normalization, the spectra and cospectra are each reduced to a family of curves which spread out according to z/L at low frequencies but converge to a single universal curve in the inertial subrange. The paper compares these results with data obtained by other investigators over both land and water. Spectral constants for velocity and temperature are determined and the variability in the recent estimates of the constants is discussed. The high-frequency behaviour is consistent with local isotropy. In the inertial subrange, where the spectra fall as n−5/3, the cospectra fall faster: uω and ωθ as n−7/3, and uθ, on the average, as n−5/2. The 4/3 ratio between the transverse and longitudinal spectral levels is observed at wavelengths of the order of the height above ground under unstable conditions and at wavelengths of the order of L/10 under stable conditions. This lower isotropic limit is shown to be governed by the combined effects of shear and buoyancy on small-scale eddies.}
@@ -218,8 +218,8 @@
       \strng{authorbibnamehash}{8235e59bac9855556fd816ca12c2d7db}
       \strng{authornamehash}{8235e59bac9855556fd816ca12c2d7db}
       \strng{authorfullhash}{f39bcdd53293940397ae1728015fc1df}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Wind Energy Science}
@@ -258,8 +258,8 @@
       \strng{authorbibnamehash}{b79bfe27b8d34ac9291ee6954eb8795e}
       \strng{authornamehash}{b79bfe27b8d34ac9291ee6954eb8795e}
       \strng{authorfullhash}{b79bfe27b8d34ac9291ee6954eb8795e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Wind Energy Science}
@@ -298,8 +298,8 @@
       \strng{authorbibnamehash}{3a47e0b2032188b28a736a77c0032161}
       \strng{authornamehash}{3a47e0b2032188b28a736a77c0032161}
       \strng{authorfullhash}{3a47e0b2032188b28a736a77c0032161}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This report describes a three-bladed, upwind, variable-speed, variable blade-pitch-to-feather-controlled multimegawatt wind turbine model developed by NREL to support concept studies aimed at assessing offshore wind technology.}
@@ -363,8 +363,8 @@
       \strng{editorbibnamehash}{713294450bf66ca7e08c640358da7dd4}
       \strng{editornamehash}{713294450bf66ca7e08c640358da7dd4}
       \strng{editorfullhash}{713294450bf66ca7e08c640358da7dd4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Remote Sensing for Wind Energy}
@@ -442,6 +442,27 @@
       \verb{doi}
       \verb 10.5194/wes-2025-42
       \endverb
+    \endentry
+    \entry{iec61400}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1bfbc8812fd493bd4a6c196b196d1291}{%
+           family={{International Electrotechnical Commission}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{bibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorbibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authornamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{International Electrotechnical Commission (IEC)}
+      \field{note}{Standard, Third Edition}
+      \field{title}{{IEC} 61400-1: Wind Turbines -- Part 1: Design Requirements}
+      \field{year}{2005}
     \endentry
     \entry{Mucke2011}{article}{}
       \name{author}{3}{}{%
@@ -729,6 +750,50 @@
       \field{title}{Wind Turbine Blade Analysis Using the Blade Element Momentum Method}
       \field{year}{2011}
     \endentry
+    \entry{burton2011}{book}{}
+      \name{author}{4}{}{%
+        {{hash=790d8a3c983be697f2afb795d0b33daa}{%
+           family={Burton},
+           familyi={B\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a666d3b9c6b0cd589b60ba06853dab66}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=76ce316249360ca2bf9f2400643cb023}{%
+           family={Sharpe},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b503fe15bcdfd12d721f95970b395cfd}{%
+           family={Bossanyi},
+           familyi={B\bibinitperiod},
+           given={Ervin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{664e4426ccc80e5ca2550fccb253c8a9}
+      \strng{fullhash}{664e4426ccc80e5ca2550fccb253c8a9}
+      \strng{bibnamehash}{664e4426ccc80e5ca2550fccb253c8a9}
+      \strng{authorbibnamehash}{664e4426ccc80e5ca2550fccb253c8a9}
+      \strng{authornamehash}{664e4426ccc80e5ca2550fccb253c8a9}
+      \strng{authorfullhash}{664e4426ccc80e5ca2550fccb253c8a9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780470699751}
+      \field{note}{First published: 3 May 2011}
+      \field{title}{Wind Energy Handbook}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1002/9781119992714
+      \endverb
+    \endentry
     \entry{fastV3}{article}{}
       \name{author}{2}{}{%
         {{hash=16df1f01e8e7fd4af16c8b4d059f4d19}{%
@@ -763,12 +828,87 @@
       \endverb
       \warn{\item Datamodel: article entry 'fastV3' (preamble/bibliography.bib): Missing mandatory field 'journaltitle'}
     \endentry
+    \entry{bossanyi2010}{report}{}
+      \name{author}{1}{}{%
+        {{hash=803f261d9556384546f94ba1a1abd593}{%
+           family={Bossanyi},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Garrad Hassan}%
+        {Partners Limited}%
+      }
+      \strng{namehash}{803f261d9556384546f94ba1a1abd593}
+      \strng{fullhash}{803f261d9556384546f94ba1a1abd593}
+      \strng{bibnamehash}{803f261d9556384546f94ba1a1abd593}
+      \strng{authorbibnamehash}{803f261d9556384546f94ba1a1abd593}
+      \strng{authornamehash}{803f261d9556384546f94ba1a1abd593}
+      \strng{authorfullhash}{803f261d9556384546f94ba1a1abd593}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{September 2010}
+      \field{title}{{GH Bladed Theory Manual}}
+      \field{type}{techreport}
+      \field{year}{2010}
+    \endentry
+    \entry{bir2009}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=62be875eb1724826c14239a08650776d}{%
+           family={Bir},
+           familyi={B\bibinitperiod},
+           given={Gunjit},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62be875eb1724826c14239a08650776d}
+      \strng{fullhash}{62be875eb1724826c14239a08650776d}
+      \strng{bibnamehash}{62be875eb1724826c14239a08650776d}
+      \strng{authorbibnamehash}{62be875eb1724826c14239a08650776d}
+      \strng{authornamehash}{62be875eb1724826c14239a08650776d}
+      \strng{authorfullhash}{62be875eb1724826c14239a08650776d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 47th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition}
+      \field{title}{{Blades and Towers Modal Analysis Code (BModes): Verification of Blade Modal Analysis Capability}}
+      \field{year}{2009}
+    \endentry
+    \entry{kane1985}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ca064dac0a8b68341562cb9b74861473}{%
+           family={Kane},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0e55b58d11945509b8a56ce906e1577a}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Inc.}%
+      }
+      \strng{namehash}{b6cc1fed232866356da570a59b6ef20b}
+      \strng{fullhash}{b6cc1fed232866356da570a59b6ef20b}
+      \strng{bibnamehash}{b6cc1fed232866356da570a59b6ef20b}
+      \strng{authorbibnamehash}{b6cc1fed232866356da570a59b6ef20b}
+      \strng{authornamehash}{b6cc1fed232866356da570a59b6ef20b}
+      \strng{authorfullhash}{b6cc1fed232866356da570a59b6ef20b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dynamics: Theory and Applications}
+      \field{year}{1985}
+    \endentry
   \enddatalist
-  \missing{ref50}
   \missing{ref57}
-  \missing{ref:bmodes}
-  \missing{ref:kanes_method}
-  \missing{ref:modal_analysis}
 \endrefsection
 \endinput
 

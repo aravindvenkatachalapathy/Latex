@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.28)  9 MAY 2025 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.28)  9 MAY 2025 23:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1443,23 +1443,23 @@ Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
 ) (./preamble/user/packages-macros.tex) (./preamble/user/math.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 41.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 41.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 40.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 40.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (.aux/paper..aux (.aux/frontmatter/title.aux) (.aux/frontmatter/declaration.aux) (.aux/frontmatter/Abstract.aux) (.aux/Thesisfolder/01_introduction.aux) (.aux/Thesisfolder/02_Numerics.aux) (.aux/Thesisfolder/08_summary.aux) (.aux/chapters/Summary.aux) (.aux/Thesisfolder/App_A.aux) (.aux/Thesisfolder/App_B.aux) (.aux/Thesisfolder/App_C.aux))
 \openout1 = `paper..aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count549
@@ -1479,19 +1479,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 41.
-Package microtype Info: Applying patch `item' on input line 41.
-Package microtype Info: Applying patch `toc' on input line 41.
-Package microtype Info: Applying patch `eqnum' on input line 41.
-Package microtype Info: Applying patch `footnote' on input line 41.
-Package microtype Info: Applying patch `verbatim' on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 40.
+Package microtype Info: Applying patch `item' on input line 40.
+Package microtype Info: Applying patch `toc' on input line 40.
+Package microtype Info: Applying patch `eqnum' on input line 40.
+Package microtype Info: Applying patch `footnote' on input line 40.
+Package microtype Info: Applying patch `verbatim' on input line 40.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 41.
+LaTeX Info: Redefining \showhyphens on input line 40.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1512,11 +1512,11 @@ Package siunitx Warning: Detected the "physics" package:
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 41.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1597,8 +1597,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
 <<sRGB.icc>>
 \openout2 = `frontmatter/title.aux'.
 
@@ -1715,7 +1715,7 @@ Chapter 1.
 
  (./Thesisfolder/02_Numerics.tex
 Chapter 2.
-<Figures/WindSpectra.png, id=249, 1349.04pt x 524.96124pt>
+<Figures/WindSpectra.png, id=253, 1349.04pt x 524.96124pt>
 File: Figures/WindSpectra.png Graphic file (type png)
 <use Figures/WindSpectra.png>
 Package pdftex.def Info: Figures/WindSpectra.png  used on input line 7.
@@ -1760,7 +1760,7 @@ File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 58.
  [5] [6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [7] [8] [9] [10]
 Chapter 3.
-<Figures/aerodynamics_streamtube.png, id=340, 1058.45438pt x 749.04843pt>
+<Figures/aerodynamics_streamtube.png, id=344, 1058.45438pt x 749.04843pt>
 File: Figures/aerodynamics_streamtube.png Graphic file (type png)
 <use Figures/aerodynamics_streamtube.png>
 Package pdftex.def Info: Figures/aerodynamics_streamtube.png  used on input line 237.
@@ -1768,15 +1768,18 @@ Package pdftex.def Info: Figures/aerodynamics_streamtube.png  used on input line
 [11
 
 ]
-<Figures/blade_element.png, id=353, 1272.755pt x 397.485pt>
+<Figures/blade_element.png, id=357, 1272.755pt x 397.485pt>
 File: Figures/blade_element.png Graphic file (type png)
 <use Figures/blade_element.png>
 Package pdftex.def Info: Figures/blade_element.png  used on input line 287.
 (pdftex.def)             Requested size: 412.56496pt x 128.84145pt.
- [12 <./Figures/aerodynamics_streamtube.png>] [13 <./Figures/blade_element.png>] [14])
-Underfull \vbox (badness 1117) has occurred while \output is active []
-
- [15] [16]
+ [12 <./Figures/aerodynamics_streamtube.png>] [13 <./Figures/blade_element.png>]
+<Figures/blade_modes.pdf, id=387, 291.85683pt x 191.17717pt>
+File: Figures/blade_modes.pdf Graphic file (type pdf)
+<use Figures/blade_modes.pdf>
+Package pdftex.def Info: Figures/blade_modes.pdf  used on input line 333.
+(pdftex.def)             Requested size: 412.56496pt x 270.2541pt.
+ [14] [15 <./Figures/blade_modes.pdf>]) [16]
 \openout2 = `Thesisfolder/08_summary.aux'.
 
  (./Thesisfolder/08_summary.tex
@@ -1829,32 +1832,32 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []\T1/lmr/m/n/12 (+20) WindEurope. \T1/lmss/m/n/12 (+20) Lat-est Wind En-ergy Data for Eu-rope -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \T1/lmss/m/n/12 (+20) Au-tumn 2024\T1/lmr/m/n/12 (+20) . Ac-cessed: 2024-12-11. \T1/lmr/bx/n/12 (+20) 2024     \T1/lmr/m/sc/10 (+20) url\T1/lmr/m/n/10 (+20) :
  []
 
 
-Overfull \hbox (86.18158pt too wide) in paragraph at lines 74--74
+Overfull \hbox (86.18158pt too wide) in paragraph at lines 73--73
 [][][]
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 74--74
+Underfull \hbox (badness 1776) in paragraph at lines 73--73
 []\T1/lmr/m/n/12 (+20) Tanja Mücke, David Klein-hans, and Joachim Peinke. \T1/lmss/m/n/12 (+20) At-mo-spheric
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 74--74
+Underfull \hbox (badness 2334) in paragraph at lines 73--73
 \T1/lmss/m/n/12 (+20) tur-bu-lence and its in-flu-ence on the al-ter-nat-ing loads on wind tur-
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 74--74
+Underfull \hbox (badness 1460) in paragraph at lines 73--73
 \T1/lmss/m/n/12 (+20) bines\T1/lmr/m/n/12 (+20) . \T1/lmr/m/sl/12 (+20) Wind En-ergy\T1/lmr/m/n/12 (+20) , \T1/lmr/bx/n/12 (+20) 2011\T1/lmr/m/n/10 (+20) .  \T1/lmr/m/sc/10 (+20) doi\T1/lmr/m/n/10 (+20) : [][][]  eprint:
  []
 
@@ -1863,32 +1866,32 @@ Underfull \hbox (badness 1460) in paragraph at lines 74--74
 
 
 ]
-Underfull \hbox (badness 2512) in paragraph at lines 74--74
+Underfull \hbox (badness 2512) in paragraph at lines 73--73
 []\T1/lmr/m/n/12 (+20) Sylvio Bistafa. \T1/lmss/m/n/12 (+20) On the de-vel-op-ment of the Navier-Stokes equa-tion
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 74--74
+Underfull \hbox (badness 3872) in paragraph at lines 73--73
 \T1/lmss/m/n/12 (+20) by Navier\T1/lmr/m/n/12 (+20) . \T1/lmr/m/sl/12 (+20) Re-vista Brasileira de En-sino de Física\T1/lmr/m/n/12 (+20) , \T1/lmr/bx/n/12 (+20) 2017\T1/lmr/m/n/10 (+20) .  \T1/lmr/m/sc/10 (+20) doi\T1/lmr/m/n/10 (+20) :
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 74--74
+Underfull \hbox (badness 7869) in paragraph at lines 73--73
 []\T1/lmr/m/n/12 (+20) Philippe Spalart. \T1/lmss/m/n/12 (+20) Trends in tur-bu-lence treat-ments\T1/lmr/m/n/12 (+20) . \T1/lmr/bx/n/12 (+20) 2000\T1/lmr/m/n/10 (+20) .  \T1/lmr/m/sc/10 (+20) doi\T1/lmr/m/n/10 (+20) :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []\T1/lmr/m/n/12 (+20) G. In-gram. \T1/lmss/m/n/12 (+20) Wind Tur-bine Blade Anal-y-sis Us-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \T1/lmss/m/n/12 (+20) ing the Blade El-e-ment Mo-men-tum Method\T1/lmr/m/n/12 (+20) .
  []
 
 
-Overfull \hbox (254.64868pt too wide) in paragraph at lines 74--74
+Overfull \hbox (254.64868pt too wide) in paragraph at lines 73--73
 [][][]\T1/lmr/m/n/12 (-20) .
  []
 
@@ -1911,17 +1914,17 @@ Package logreq Info: Writing requests to 'paper..run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  57023 strings out of 476106
- 1217484 string characters out of 5793933
- 2089219 words of memory out of 5000000
- 77542 multiletter control sequences out of 15000+600000
- 727698 words of font info for 327 fonts, out of 8000000 for 9000
+ 1217495 string characters out of 5793933
+ 2089403 words of memory out of 5000000
+ 77533 multiletter control sequences out of 15000+600000
+ 731074 words of font info for 332 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  94i,14n,123p,1397b,2443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qzcmi.pfb>
-Output written on .aux/paper..pdf (29 pages, 833062 bytes).
+Output written on .aux/paper..pdf (29 pages, 1055408 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 565 compressed objects within 6 object streams
- 120 named destinations out of 1000 (max. 500000)
- 92577 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 745 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 94630 words of extra memory for PDF output out of 106986 (max. 10000000)
 

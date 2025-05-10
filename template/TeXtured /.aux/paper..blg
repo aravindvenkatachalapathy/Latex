@@ -1,23 +1,23 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '.aux/paper..blg'
-[66] biber:340> INFO - === Fri May  9, 2025, 15:43:58
-[80] Biber.pm:419> INFO - Reading '.aux/paper..bcf'
-[138] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
-[149] Biber.pm:4419> INFO - Processing section 0
-[158] Biber.pm:4610> INFO - Looking for bibtex file 'preamble/bibliography.bib' for section 0
-[160] bibtex.pm:1713> INFO - LaTeX decoding ...
-[191] bibtex.pm:1519> INFO - Found BibTeX data source 'preamble/bibliography.bib'
-[359] Biber.pm:1670> INFO - Datamodel validation starting
-[362] Biber.pm:1720> INFO - Datamodel validation complete
-[383] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[383] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[383] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[383] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[397] bbl.pm:660> INFO - Writing '.aux/paper..bbl' with encoding 'UTF-8'
-[407] bbl.pm:763> INFO - Output to .aux/paper..bbl
-[407] Biber.pm:131> WARN - legacy month field 'October' in entry 'ingram2011blade' is not an integer - this will probably not sort properly.
-[407] Biber.pm:131> WARN - I didn't find a database entry for 'ref57' (section 0)
-[407] Biber.pm:131> WARN - Datamodel: article entry 'NREL5MW' (preamble/bibliography.bib): Missing mandatory field 'journaltitle'
-[407] Biber.pm:131> WARN - Datamodel: article entry 'raasch2001' (preamble/bibliography.bib): Invalid field 'publisher' for entrytype 'article'
-[407] Biber.pm:131> WARN - Datamodel: article entry 'fastV3' (preamble/bibliography.bib): Missing mandatory field 'journaltitle'
-[407] Biber.pm:133> INFO - WARNINGS: 5
+[61] biber:340> INFO - === Fri May  9, 2025, 22:55:32
+[75] Biber.pm:419> INFO - Reading '.aux/paper..bcf'
+[128] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
+[138] Biber.pm:4419> INFO - Processing section 0
+[146] Biber.pm:4610> INFO - Looking for bibtex file 'preamble/bibliography.bib' for section 0
+[149] bibtex.pm:1713> INFO - LaTeX decoding ...
+[174] bibtex.pm:1519> INFO - Found BibTeX data source 'preamble/bibliography.bib'
+[314] Biber.pm:1670> INFO - Datamodel validation starting
+[316] Biber.pm:1720> INFO - Datamodel validation complete
+[335] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[335] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[335] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[335] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[349] bbl.pm:660> INFO - Writing '.aux/paper..bbl' with encoding 'UTF-8'
+[359] bbl.pm:763> INFO - Output to .aux/paper..bbl
+[359] Biber.pm:131> WARN - legacy month field 'October' in entry 'ingram2011blade' is not an integer - this will probably not sort properly.
+[359] Biber.pm:131> WARN - I didn't find a database entry for 'ref57' (section 0)
+[359] Biber.pm:131> WARN - Datamodel: article entry 'NREL5MW' (preamble/bibliography.bib): Missing mandatory field 'journaltitle'
+[359] Biber.pm:131> WARN - Datamodel: article entry 'raasch2001' (preamble/bibliography.bib): Invalid field 'publisher' for entrytype 'article'
+[359] Biber.pm:131> WARN - Datamodel: article entry 'fastV3' (preamble/bibliography.bib): Missing mandatory field 'journaltitle'
+[359] Biber.pm:133> INFO - WARNINGS: 5

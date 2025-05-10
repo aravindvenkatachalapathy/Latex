@@ -35,7 +35,7 @@ This spectrum is particularly useful for wind turbine design, as it provides ins
 
 The consistency between wind modeling approaches and actual measurement data supports the common practice of separating wind into mean components and turbulence spectra. Consequently, wind turbine simulations are typically conducted as follows: 
 
-First, a series of turbulent wind fields—each 10 minutes long—are generated based on turbulence and vertical wind shear models for various mean wind speeds. According to \cite{iec61400}, running at least six simulations per mean wind speed, spaced at 2~m/s intervals from cut-in to cut-out speeds, is recommended to ensure statistically reliable results. Second, the wind speed distribution is modeled using a probability density function, which is then used to extrapolate and weight performance metrics such as power output, pitch activity, and structural loads over the turbine's operational lifetime.
+First, a series of turbulent wind fields—each 10 minutes long—are generated based on turbulence and vertical wind shear models for various mean wind speeds. According to \cite{iec61400},running at least six simulations per mean wind speed, spaced at 2~m/s intervals from cut-in to cut-out speeds, is recommended to ensure statistically reliable results. Second, the wind speed distribution is modeled using a probability density function, which is then used to extrapolate and weight performance metrics such as power output, pitch activity, and structural loads over the turbine's operational lifetime.
 
 The wind fields used in aero-elastic simulations are time series of three-dimensional wind velocity vectors defined at discrete points on a vertical, stationary, two-dimensional grid. In this study, wind fields are generated using \texttt{TurbSim}~\cite{ref57}, which applies a rectangular grid layout. These wind fields are then used in \texttt{FAST} for aero-elastic simulations, where they are interpolated along the rotating blades to compute aerodynamic forces and moments using the Blade Element Momentum (BEM) method, as described in Section \ref{sec:bem_theory}. 
 
@@ -328,6 +328,13 @@ The equation of motion for a single mode is:
     m_i \ddot{q}_i + c_i \dot{q}_i + k_i q_i = F_i. \label{eq:single_mode_eom}
 \end{equation}
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/blade_modes.pdf}
+    \caption{Blade mode shapes illustrating the first edgewise mode and the first two flapwise modes of a NREL 5 MW Turbine.}
+    \label{fig:blade_mode_shapes}
+\end{figure}
+
 In FAST, each blade is modeled using the first edgewise mode and the first two flapwise modes. The tower is modeled with the first two modes in both fore-aft and side-to-side directions. Including rotor rotation, drive train torsion, and nacelle yaw, this results in a total of 16 DOFs for a three-bladed wind turbine.
 
 The total deflection of a flexible component is reconstructed by superimposing all mode shapes weighted by the current modal amplitudes. The coupled equations of motion are derived using Kane’s method~\cite{kane1985}, which accounts for nonlinear interactions between structural and rotational DOFs. For example, tower motion depends on the instantaneous azimuthal positions of the blades. Rotor speed also affects mode frequencies due to centrifugal stiffening.
@@ -349,57 +356,5 @@ The ALM is computationally efficient compared to fully resolved blade simulation
 \subsection{The Actuator Disk Model} 
 The Actuator Disk Model (ADM) is a simplified approach for simulating the aerodynamic effects of a wind turbine rotor on the flow field. In this model, the rotor is represented as a permeable disk that exerts a uniform or spatially varying force distribution on the incoming flow. The ADM is based on the principles of momentum theory and assumes that the rotor induces a pressure drop and velocity deficit in the flow, which are proportional to the thrust and power coefficients of the turbine. The ADM is computationally less demanding than the Actuator Line Model, as it does not require detailed blade geometry or airfoil data. It is particularly useful for large-scale simulations of wind farms, where the focus is on the overall flow dynamics rather than the detailed blade aerodynamics. However, the ADM lacks the ability to capture unsteady blade-wake interactions and the effects of blade-specific aerodynamic features. Despite these limitations, the ADM remains a valuable tool for studying wind farm performance, wake interactions, and optimization strategies in scenarios where computational resources are limited.
 \subsection{The Actuator Sector Model} 
-\begin{tikzpicture}[scale=1.2]
 
-    % Common settings
-    \def\towerHeight{6}
-    \def\towerBaseX{0}
-    \def\towerTopX{0.2}
-    
-    % Title
-    \node at (2.5,7.5) {\Large Modal Shapes of a Wind Turbine};
-    
-    %%%% First Mode Shape (Bending)
-    \node[above] at (0,6.5) {\textbf{1st Mode: Bending (Fore-Aft)}};
-    
-    % Base line
-    \draw[thick] (0,0) -- (0,6);
-    
-    % Mode shape
-    \draw[very thick, blue] plot[smooth] coordinates {
-        (0,0)
-        (0.05,1)
-        (0.1,2)
-        (0.15,3)
-        (0.2,4)
-        (0.25,5)
-        (0.3,6)
-    };
-    
-    % Nacelle
-    \draw[fill=gray] (0.3,6) circle (0.15);
-    \draw[->, thick] (0.3,6) -- +(0.8,0) node[right] {Blades};
-    
-    %%%% Second Mode Shape (S-Shaped)
-    \node[above] at (5,6.5) {\textbf{2nd Mode: S-Bending}};
-    
-    % Base line
-    \draw[thick] (4,0) -- (4,6);
-    
-    % Mode shape
-    \draw[very thick, red] plot[smooth] coordinates {
-        (4,0)
-        (3.95,1)
-        (4.05,2)
-        (3.95,3)
-        (4.05,4)
-        (3.95,5)
-        (4.1,6)
-    };
-    
-    % Nacelle
-    \draw[fill=gray] (4.1,6) circle (0.15);
-    \draw[->, thick] (4.1,6) -- +(0.8,0) node[right] {Blades};
-    
-    \end{tikzpicture}
 

@@ -857,6 +857,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
@@ -890,7 +892,6 @@ INPUT ./frontmatter/declaration.tex
 INPUT ./frontmatter/declaration.tex
 INPUT frontmatter/declaration.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
@@ -993,6 +994,11 @@ INPUT ./Figures/blade_element.png
 INPUT ./Figures/blade_element.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT ./Figures/blade_modes.pdf
+INPUT ./Figures/blade_modes.pdf
+INPUT ./Figures/blade_modes.pdf
+INPUT ./Figures/blade_modes.pdf
+INPUT ./Figures/blade_modes.pdf
 INPUT ./Thesisfolder/08_summary.tex
 INPUT ./Thesisfolder/08_summary.tex
 OUTPUT .aux/Thesisfolder/08_summary.aux
