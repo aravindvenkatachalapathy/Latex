@@ -37,7 +37,7 @@ The consistency between wind modeling approaches and actual measurement data sup
 
 First, a series of turbulent wind fields—each 10 minutes long—are generated based on turbulence and vertical wind shear models for various mean wind speeds. According to \cite{iec61400},running at least six simulations per mean wind speed, spaced at 2~m/s intervals from cut-in to cut-out speeds, is recommended to ensure statistically reliable results. Second, the wind speed distribution is modeled using a probability density function, which is then used to extrapolate and weight performance metrics such as power output, pitch activity, and structural loads over the turbine's operational lifetime.
 
-The wind fields used in aero-elastic simulations are time series of three-dimensional wind velocity vectors defined at discrete points on a vertical, stationary, two-dimensional grid. In this study, wind fields are generated using \texttt{TurbSim}~\cite{ref57}, which applies a rectangular grid layout. These wind fields are then used in \texttt{FAST} for aero-elastic simulations, where they are interpolated along the rotating blades to compute aerodynamic forces and moments using the Blade Element Momentum (BEM) method, as described in Section \ref{sec:bem_theory}. 
+The wind fields used in aero-elastic simulations are time series of three-dimensional wind velocity vectors defined at discrete points on a vertical, stationary, two-dimensional grid. In this study, wind fields are generated using \texttt{TurbSim}~\cite{turbsim09}, which applies a rectangular grid layout. These wind fields are then used in \texttt{FAST} for aero-elastic simulations, where they are interpolated along the rotating blades to compute aerodynamic forces and moments using the Blade Element Momentum (BEM) method, as described in Section \ref{sec:bem_theory}. 
 
 Although the rotor plane can shift longitudinally due to nacelle motion or blade deflection, the wind field imported into \texttt{FAST} remains fixed and does not account for such movements.
 
@@ -55,7 +55,9 @@ and energy. The energy equation is disregarded in this thesis, since it is only 
 compressible flows (compressible effects are negligible in wind turbines since Ma < 0.3). The
 Navier-Stokes equations assuming constant density can be written in differential, scalar form
 as:
-\begin{definition}[Navier Stokes Equations] \label{def:NSeqn}
+\begin{tcolorbox}[colback=blue!5!white, colframe=blue!75!black]
+    \textbf{Navier-Stokes equations:}
+    \newline
     \textbf{Conservation of Mass:}
     The conservation of mass, also known as the continuity equation, ensures that mass is neither
     created nor destroyed. For an incompressible fluid, this is expressed as:
@@ -74,7 +76,7 @@ as:
         \item $\rho$ is the fluid density (assumed constant), $\mathbf{u}$ is the velocity vector, $p$ is the pressure, $\mu$ is the dynamic viscosity, $\mathbf{f}$ represents external body forces (e.g., gravity, coriolis forces).
     \end{itemize}
     For detailed information on the Navier-Stokes equations, refer to \cite{NSeqn}
-\end{definition}
+\end{tcolorbox}
 
 
 
@@ -195,29 +197,48 @@ where $\tau_{SGS}$ is the sub-grid scale stress tensor, defined as:
 
 The sub-grid scale stress tensor $\tau_{SGS}$ represents the effects of the unresolved small-scale motions on the resolved large-scale motions. To close the LES equations, $\tau_{SGS}$ must be modeled using a sub-grid scale model.
 
+The sub-grid scale (SGS) stress tensor $\boldsymbol{\tau}_{\mathrm{SGS}}$ represents the effects of unresolved small-scale motions on the resolved large-scale motions. To close the LES equations, $\boldsymbol{\tau}_{\mathrm{SGS}}$ must be modeled using a sub-grid scale model.
+
+\begin{tcolorbox}[colback=blue!5!white, colframe=blue!75!black]
 \textbf{Sub-Grid Scale Models:}
-There are two widely used methods to approximate $\tau_{SGS}$. Those models are:
 
-1. \textbf{Smagorinsky Model:}
-   The Smagorinsky model assumes that the SGS stresses are proportional to the strain rate of the resolved flow:
-   \begin{equation}
-   \tau_{SGS} = -2 \nu_t \mathbf{S}
-   \end{equation}
-   where:
-   \begin{itemize}
-       \item $\nu_t = (C_s \Delta)^2 |\mathbf{S}|$ is the eddy viscosity, $C_s$ is the Smagorinsky constant (typically $C_s \approx 0.1$), $\Delta$ is the filter width, $\mathbf{S}$ is the strain rate tensor, defined as $\mathbf{S} = \frac{1}{2} \left( \nabla \overline{\mathbf{u}} + \nabla \overline{\mathbf{u}}^T \right)$.
-   \end{itemize}
+Two widely used models to approximate $\boldsymbol{\tau}_{\mathrm{SGS}}$ are:
 
-2. \textbf{Dynamic Smagorinsky Model:}
-   The dynamic Smagorinsky model improves upon the Smagorinsky model by dynamically computing the Smagorinsky constant $C_s$ based on the local flow conditions. 
-   This is achieved by applying a second filtering operation (test filter) and using the Germano identity to determine $C_s$.
-    The dynamic Smagorinsky model is more adaptive to varying flow conditions and provides better results in complex flows.
+\vspace{1mm}
+\textbf{Smagorinsky Model:} 
+The Smagorinsky model assumes that the SGS stresses are proportional to the strain rate of the resolved flow:
+\begin{equation}
+\boldsymbol{\tau}_{\mathrm{SGS}} = -2 \nu_t \mathbf{S}
+\end{equation}
+where:
+\begin{itemize}
+    \item $\nu_t = (C_s \Delta)^2 |\mathbf{S}|$ is the eddy viscosity,
+    \item $C_s$ is the Smagorinsky constant (typically $C_s \approx 0.1$),
+    \item $\Delta$ is the filter width,
+    \item $\mathbf{S}$ is the strain-rate tensor, defined as $\mathbf{S} = \frac{1}{2} \left( \nabla \overline{\mathbf{u}} + \nabla \overline{\mathbf{u}}^{\mathrm{T}} \right)$.
+\end{itemize}
+
+\vspace{2mm}
+\textbf{Dynamic Smagorinsky Model:} 
+This model improves upon the standard Smagorinsky model by dynamically computing the coefficient $C_s$ based on the local flow conditions. 
+
+A second filtering operation, called the \textit{test filter}, is applied and the Germano identity is used to compute $C_s$:
+\begin{itemize}
+    \item This makes the model adaptive to local turbulence structures,
+    \item It improves accuracy especially in complex and inhomogeneous flows.
+\end{itemize}
+\end{tcolorbox}
+
+Large-eddy simulation (LES) provides a detailed representation of turbulent flows by resolving energy-containing large eddies while modeling the dissipative smaller scales. It is widely used in engineering and scientific applications where direct numerical simulation (DNS) is computationally prohibitive and Reynolds-averaged Navier–Stokes (RANS) methods lack sufficient fidelity.
+
+In the present work, the large-eddy simulation tool \macro{PALM} \cite{maronga2015}, developed at the Institute for Meteorology and Climatology (IMUK) of Leibniz University Hannover, is employed.
+
 
 LES provides a detailed representation of turbulent flows, capturing the energy-containing large eddies while modeling the dissipative small scales. It is widely used in engineering and scientific applications where DNS is computationally infeasible, and RANS lacks sufficient accuracy. In the present work the
-large-eddy simulation (LES) tool PALM \cite{maronga2015}, developed at the Institute for Meteorology and
+large-eddy simulation (LES) tool \macro{PALM} \cite{maronga2015}, developed at the Institute for Meteorology and
 Climatology (IMUK) of Leibniz University Hannover is used. 
 
-The PALM model is built upon the non-hydrostatic, filtered, incompressible Navier–Stokes equations, formulated using the Boussinesq approximation. An anelastic approximation is also available as an option for simulating deep convection. By default, PALM solves for at least six prognostic variables: the three velocity components ($u$, $v$, $w$) on a Cartesian grid, the potential temperature ($\theta$), the water vapor mixing ratio ($q_v$), and optionally a passive scalar ($s$). Additionally, a prognostic equation is solved either for the subgrid-scale turbulent kinetic energy (SGS-TKE, $e$) in large-eddy simulation (LES) mode—used by default—or for the total turbulent kinetic energy in Reynolds-averaged Navier–Stokes (RANS) model.
+The \macro{PALM model} is built upon the non-hydrostatic, filtered, incompressible Navier–Stokes equations, formulated using the Boussinesq approximation. An anelastic approximation is also available as an option for simulating deep convection. By default, PALM solves for at least six prognostic variables: the three velocity components ($u$, $v$, $w$) on a Cartesian grid, the potential temperature ($\theta$), the water vapor mixing ratio ($q_v$), and optionally a passive scalar ($s$). Additionally, a prognostic equation is solved either for the subgrid-scale turbulent kinetic energy (SGS-TKE, $e$) in large-eddy simulation (LES) mode—used by default—or for the total turbulent kinetic energy in Reynolds-averaged Navier–Stokes (RANS) model.
 
 In LES mode, the filtering operation introduces four subgrid-scale (SGS) covariance terms, which are parameterized using a 1.5-order turbulence closure following Deardorff (1980). PALM employs a modified version of the closure schemes proposed by Moeng and Wyngaard (1988) and Saiki et al. (2000). This closure assumes that the energy transport by SGS eddies is proportional to the local gradients of the resolved flow variables.
 
@@ -291,11 +312,11 @@ where $n_B$ is the number of blades, $dL_a$ and $dD_a$ are the differential lift
 
 From geometric considerations shown in Figure~\ref{fig:blade_geometry}, the inflow angle is given by:
 \begin{equation}
-    \tan(\alpha + \beta) = \frac{u_1(1 - a_{\text{ax}})}{\Omega r (1 + a_{\text{an}})},
+    \tan(\alpha + \beta) = \frac{u_\infty(1 - a)}{\Omega r (1 + a)},
 \end{equation}
 and the relative inflow speed is:
 \begin{equation}
-    v_{\text{inflow}}^2 = \left( \Omega r (1 + a_{\text{an}}) \right)^2 + \left( u_1 (1 - a_{\text{ax}}) \right)^2. \label{eq:inflow_speed}
+    v_{\text{inflow}}^2 = \left( \Omega r (1 + a) \right)^2 + \left( u_1 (1 - a) \right)^2. \label{eq:inflow_speed}
 \end{equation}
 
 Equations~\eqref{eq:thrust_force} and~\eqref{eq:torque} are equated with the corresponding expressions from momentum theory to form a system of two nonlinear equations. The unknowns $a_{\text{ax}}$ (axial induction factor) and $a_{\text{an}}$ (angular induction factor) are then solved iteratively for each blade section, given known values of $u_1$, $\Omega$, $\rho$, $\beta$, $r$, $dr$, $c$, and the aerodynamic coefficients $c_L(\alpha)$ and $c_D(\alpha)$.

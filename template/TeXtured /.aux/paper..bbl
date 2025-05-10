@@ -464,6 +464,37 @@
       \field{title}{{IEC} 61400-1: Wind Turbines -- Part 1: Design Requirements}
       \field{year}{2005}
     \endentry
+    \entry{turbsim09}{report}{}
+      \name{author}{1}{}{%
+        {{hash=49c5d13586daa6198eba4f57505cf5a8}{%
+           family={Jonkman},
+           familyi={J\bibinitperiod},
+           given={B\bibnamedelima J},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Renewable Energy Lab. (NREL), Golden, CO (United States)}%
+      }
+      \strng{namehash}{49c5d13586daa6198eba4f57505cf5a8}
+      \strng{fullhash}{49c5d13586daa6198eba4f57505cf5a8}
+      \strng{bibnamehash}{49c5d13586daa6198eba4f57505cf5a8}
+      \strng{authorbibnamehash}{49c5d13586daa6198eba4f57505cf5a8}
+      \strng{authornamehash}{49c5d13586daa6198eba4f57505cf5a8}
+      \strng{authorfullhash}{49c5d13586daa6198eba4f57505cf5a8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{This report is a user's guide for the TurbSim code. TurbSim stochastic inflow turbulence code is a wind turbine design code that simulates a full-field flow containing coherent turbulence associated with nocturnal boundary layer flows.}
+      \field{month}{09}
+      \field{title}{Turbsim User's Guide: Version 1.50}
+      \field{type}{techreport}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.2172/965520
+      \endverb
+      \warn{\item Datamodel: report entry 'turbsim09' (preamble/bibliography.bib): Field 'place' invalid in data model - ignoring}
+    \endentry
     \entry{Mucke2011}{article}{}
       \name{author}{3}{}{%
         {{hash=99ab4a8d9abe873806095be17fc7ff5d}{%
@@ -908,7 +939,6 @@
       \field{year}{1985}
     \endentry
   \enddatalist
-  \missing{ref57}
 \endrefsection
 \endinput
 
