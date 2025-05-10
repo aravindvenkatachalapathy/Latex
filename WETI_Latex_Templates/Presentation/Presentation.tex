@@ -1,0 +1,69 @@
+% !BIB TS-program = biber
+% !TEX spellcheck = en_US
+%---------------------------------------------------------------------------------
+% Template based on Lecture "Controller Design for Wind Turbines and Wind Farms" by David Schlipf
+%---------------------------------------------------------------------------------
+\documentclass[aspectratio=1610,handout]{beamer} % without overlays
+%\documentclass[aspectratio=1610]{beamer}
+%\setbeamertemplate{background}[grid][step=1cm] % grid can be helpful for \PutAt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Short Presentation Title]{Long Presentation Title}
+\institute[WETI]{Wind Energy Technology Institute}
+\author[Short name]{Long name of presenting student}
+\date{04.07.2023}
+\subtitle{Subtitle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[corePath=WETI-Style/core/,
+TitleBackgroundPicture=WETI-Style/background/background_WindFarm]
+{WETI-Style/WETI-Presentation}%v1.13mod
+\bibliography{WETI-Style/PublicationsDavidSchlipf,ReferencesThesis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+%=================================================================================
+\section[Introduction]{}
+%=================================================================================
+\begin{frame}{Contents}
+	\tableofcontents
+	\PutAt<1->[5cm]{(10cm,2cm)}{\includegraphics[width=4.0cm]{Figures/WETI}}% graphic related to topic		
+\end{frame}
+%=================================================================================
+\section[Short Section Title]{Long Section Title}
+%=================================================================================
+\miniframesoff
+\begin{frame}<handout:0>[noframenumbering]{Contents}
+	\tableofcontents[currentsection]
+	\PutAt[5cm]<1-|handout:0>{(10cm,2cm)}{\includegraphics[width=4.0cm]{Figures/WETI}} % graphic related to topic	  	
+\end{frame}
+\miniframeson
+%---------------------------------------------------------------------------------
+\begin{frame}{Frame Title}
+\begin{columns}
+	\column{4.0cm}    	
+		\centering 
+		\includegraphics<1->[width=4cm]{Figures/WETI}
+	\column{10.0cm}
+		\begin{block}<2->{List}
+			\begin{itemize}		
+				\item Hello World
+				\item List item with Reference \cite{Bossanyi2000a}
+			\end{itemize} 	
+		\end{block}  
+\end{columns}
+\end{frame}
+%=================================================================================
+\section[Conclusion]{Conclusion and Outlook}\label{sec:CNO}
+%=================================================================================
+\miniframesoff
+\begin{frame}<handout:0>[noframenumbering]{Content}
+	\tableofcontents[currentsection]
+	\PutAt[5cm]<1-|handout:0>{(10cm,2cm)}{\includegraphics[width=4.0cm]{Figures/WETI}} % graphic related to topic	  	
+\end{frame}
+\miniframeson
+%---------------------------------------------------------------------------------
+\begin{frame}{References}
+%	\renewcommand{\bibfont}{\footnotesize} % adjust font size to get all references on one page
+	\printbibliography[heading=none]
+\end{frame}
+%---------------------------------------------------------------------------------
+\end{document}

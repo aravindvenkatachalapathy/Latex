@@ -1,0 +1,65 @@
+% filepath: /Thesis/Thesis/frontmatter/title.tex
+\pdfbookmark{Title Page}{titlepage} % add PDF outline entry
+\thispagestyle{empty} % no number on the title page
+\begin{center}
+    \begin{minipage}[c]{0.25\textwidth}
+        \includegraphics[width=\textwidth]{Figures/00_other/FUAS.pdf}
+    \end{minipage}
+    \begin{minipage}[c]{0.35\textwidth}
+        \includegraphics[width=\textwidth]{Figures/00_other/FHKiel.jpg}
+    \end{minipage}
+    \begin{minipage}[c]{0.35\textwidth}
+        \includegraphics[width=\textwidth]{Figures/00_other/WETI.pdf}
+    \end{minipage}
+
+    \Large
+
+    \vspace{-2em}
+    \vfill
+
+    {\ifFANCY\sffamily\Huge\else\bfseries\LARGE\fi
+        \MakeUppercase{\ThesisType} THESIS}
+
+    \vfill
+
+    %% if `\ThesisTitleFront` is not defined, use `\ThesisTitle`
+    \ProvideExpandableDocumentCommand{\ThesisTitleFront}{}{\ThesisTitle}
+    % {\Huge \bfseries \ThesisTitleFront \par}
+    {\fontsize{30pt}{36pt}\selectfont \bfseries
+        \ThesisTitleFront \par}
+
+    \vspace{1em}
+
+    {\normalsize Submitted by:\\[1em]
+    {\bfseries \large \textcolor{red}{Aravind Venkatachalapathy}\\}}
+
+    \vfill
+
+    \Department
+
+    \vspace{1.1em}
+
+    \begin{center}
+        \large
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{>{\sffamily\color{Gray40}}r @{\hspace{1.0em}} l}
+            Supervisor of the Thesis    & \Supervisor     \\
+            \ifdef{\CoSupervisor}{%
+            Co-Supervisor of the Thesis & \CoSupervisor   \\
+            }{}
+            \ifdef{\StudyProgramme}{% TODO: programme vs program?
+            Study Programme             & \StudyProgramme \\
+            }{}
+        \end{tabular}
+    \end{center}
+
+    \vspace{2em}
+
+    \ifFANCY\sffamily\fi
+    Flensburg \YearSubmitted \\
+    \ifdef{\YearRevision}{%
+    \emph{Revised version \YearRevision} \par
+    }{}
+\end{center}
+
+\newpage

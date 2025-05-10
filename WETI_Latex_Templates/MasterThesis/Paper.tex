@@ -1,0 +1,239 @@
+%---------------------------------------------------------------------------------
+% Template for Master Thesis
+% v1 by Flemming Ohlsen
+%---------------------------------------------------------------------------------
+%Setting
+    %Document properties
+\documentclass[a4paper, 12pt, bibtotoc, toc=chapterentrywithdots, hyphens]{scrreprt}
+\title{TITLE OF PAPER}
+\author{Aravind Venkatachalapathy}
+\date{\today}
+
+\newcommand*{\autorefapp}[1]{\renewcommand*{\sectionautorefname}{Appendix}\autoref{#1}\renewcommand*{\sectionautorefname}{Section}} %New command to refer to appendix: \autorefapp
+\usepackage{etoolbox}
+\usepackage{enumitem} %Itemization
+
+%Font and language
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{ulem} % Underlining of text
+\usepackage[babel=true]{csquotes} % Citation
+\usepackage[font=normalsize,labelfont=it,textfont=it]{caption} % Caption
+\setlength{\parindent}{12pt} % New paragraph indent
+\usepackage{lscape} % Insert pages in Landscape
+\newcommand{\ts}{\textsuperscript} % Transscript
+
+    %Lists of figures and tables
+\renewcaptionname{english}{\figurename}{Fig.}
+\renewcaptionname{english}{\tablename}{Tab.}
+\usepackage{tocloft}
+\renewcommand{\cftfigpresnum}{Fig. }
+\renewcommand{\cfttabpresnum}{Tab. }
+\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cfttabaftersnum}{:}
+\setlength{\cftfignumwidth}{2.5cm}
+\setlength{\cfttabnumwidth}{2.5cm}
+\setlength{\cftfigindent}{0cm}
+\setlength{\cfttabindent}{0cm}
+
+\usepackage{longtable} %Tables over several pages
+
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} %Left aligned, fixed width
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} %Centered, fixed width
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} %Right aligned, fixed width
+
+\usepackage[toc,page]{appendix}
+
+    %Math environment
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{siunitx}
+\usepackage{eurosym}
+
+\sisetup{locale=DE, per-mode=symbol}
+\DeclareSIUnit{\sieuro}{\mbox{\euro}}
+
+% Ensure section/chapter headings use Times New Roman
+\addtokomafont{chapter}{\normalfont\rmfamily}
+\addtokomafont{section}{\normalfont\rmfamily}
+\addtokomafont{subsection}{\normalfont\rmfamily}
+\addtokomafont{subsubsection}{\normalfont\rmfamily}
+% Fix TOC/List fonts in tocloft package (if used)
+\renewcommand{\cftchapfont}{\rmfamily}
+\renewcommand{\cftsecfont}{\rmfamily}
+\renewcommand{\cftsubsecfont}{\rmfamily}
+\renewcommand{\cftchappagefont}{\rmfamily}
+\renewcommand{\cftsecpagefont}{\rmfamily}
+\renewcommand{\cftsubsecpagefont}{\rmfamily}
+\renewcommand{\cftfigfont}{\rmfamily}
+\renewcommand{\cfttabfont}{\rmfamily}
+\renewcommand{\cftfigpagefont}{\rmfamily}
+\renewcommand{\cfttabpagefont}{\rmfamily}
+
+
+    %Figures
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{subfig}
+
+    %Numbering
+\usepackage{chngcntr}
+\counterwithout{table}{chapter}
+\counterwithout{figure}{chapter}
+\counterwithout{equation}{chapter}
+% Bibliography
+\usepackage{doi}
+\bibliographystyle{ieeetr}
+
+    %Bibliography
+%\bibliographystyle{ieeetr}
+
+    %Line spacing
+\usepackage{setspace}
+\setstretch{1.2}
+\usepackage{nameref}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks   = true, 	%Colours links instead of ugly boxes
+	urlcolor     = blue, 	%Colour for external hyperlinks
+	linkcolor    = black, 	%Colour of internal links
+	citecolor    = black	%Colour of citations
+}
+\usepackage{pdfpages} %Include PDFs
+
+    %Header and footer
+\usepackage{fancyhdr}
+
+        %Standard text
+\pagestyle{fancy}
+
+\fancyhf{}
+\lhead{\slshape\nouppercase{\leftmark}} %Chapter title
+\chead{}
+\rhead{}
+
+\lfoot{}
+\cfoot{\thepage} %Page number
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt} %Line under header
+\renewcommand{\footrulewidth}{0.4pt} %Line above footer
+        
+        %Preamble and first page of chapter
+\fancypagestyle{Preamble}{
+    \fancyhf{}
+    \renewcommand{\footrulewidth}{0.4pt}
+    \renewcommand{\headrulewidth}{0pt}
+    \cfoot{\thepage}
+}
+
+    %Abreviations
+\usepackage[printonlyused]{acronym}
+
+%Document
+\begin{document}
+
+    %Preamble
+\pagenumbering{roman}
+\pagestyle{empty}
+
+        %Title page
+\include{Chapter/00_titlepage}
+
+        %Declaration on thesis
+\chapter*{Declaration on Thesis}
+\thispagestyle{Preamble}
+
+I herewith formally declare that I, \textcolor{red}{\textbf{Aravind Venkatachalapathy}}, have written the submitted paper independently. I did not use any outside support except for the quoted literature and other sources mentioned in the paper. I clearly marked and separately listed all of the literature and all of the other sources which I employed when producing this academic work, either literally or in content. This thesis has not been handed in or published before in the same or similar form.
+
+\vspace{4cm}
+
+\begin{tabular}[h]{l p{2cm} p{7cm}}
+Flensburg, \today &  & \\
+\cline{1-1}\cline{3-3}
+{\small Place, Date}& & {\small \textcolor{red}{\textbf{Aravind Venkatachalapathy}}}\\
+\end{tabular}
+
+\chapter*{Abstract}
+
+\newpage
+\chapter*{Acnowledgements}
+        %Table of content
+\newpage
+\setstretch{1.2}
+\addtocontents{toc}{\protect\thispagestyle{Preamble}}
+\tableofcontents
+\thispagestyle{Preamble}
+
+        %List of figures
+\newpage
+\listoffigures
+\thispagestyle{Preamble}
+\addcontentsline {toc} {chapter} {List of Figures}
+
+        %List of tables
+\newpage
+\listoftables
+\thispagestyle{Preamble}
+\addcontentsline {toc} {chapter} {List of Tables}
+
+        %List of abbreviations
+\newpage
+\chapter*{List of Abbreviations}
+\thispagestyle{Preamble}
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+
+\begin{acronym}[\hspace{3.5cm}]
+    \acro{BVKW}{Bundesverband Kleinwindanlagen}
+    \acro{BWE}{Bundesverband WindEnergie}
+    \acro{BWEA}{British Wind Energy Association}
+    \acro{CAD}{computer-aided design}
+    \acro{CFD}{computational fluid dynamics}
+    \acro{GFRP}{glass-fiber reinforced plastic}
+    \acro{HAWT}{horizontal axis wind turbine}
+    \acro{PV}{photovoltaic}
+    \acro{VAWT}{vertical axis wind turbine}
+    \acro{WETI}{Wind Energy Technology Institute}
+    \acro{WTG}{wind turbine generator}
+    \acro{WWEA}{World Wind Energy Association}
+\end{acronym}
+
+    %Main text
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\setstretch{1.2}
+\renewcommand\chapterpagestyle{Preamble}
+
+        %Chapter
+\include{Chapter/01_introduction}
+\include{Chapter/02_Numerics}
+\include{Chapter/08_summary}
+\include{Chapter/09_conclusion_outlook}
+
+    %References
+
+\bibliography{bibliography.bib}
+
+    %Appendix
+\newpage
+\pagenumbering{Roman}
+\appendix
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{\Roman{figure}}
+\setcounter{table}{0}
+\renewcommand{\thetable}{\Roman{table}}
+\setcounter{equation}{0}
+\renewcommand{\theequation}{\Roman{equation}}
+
+%\include{Chapter/App_A}
+%\include{Chapter/App_B}
+%\include{Chapter/App_C}
+
+
+\end{document}
