@@ -1,20 +1,5 @@
 
-</div>
 
-Do you care in the slightest about what your readers think about your document,
-and by proxy about you and your competence level? If yes, then a classy,
-typographically professional layout and structured, clear, and revealing content
-can only help. This template tries to aid you in both of these endeavors.
-
-Here’s what the **TeXtured** Template offers:
-- ✨ **typographically elegant layout** with various features to make your document stand out
-- 🧙 **clean code structure** with plenty of comments to help you easily customize the template to your needs
-- 🔗 **seamless GitHub integration** (via GitHub Actions) to streamline version control and collaboration
-- 📄 **PDF/A compliance** and *front matter* supporting theses at [MFF](https://www.mff.cuni.cz/en) 🎓
-
-To learn more about the design principles behind `TeXtured` and its capabilities, look at the
-[<img align="center" alt="TeXtured Manual" src="https://img.shields.io/badge/TeXtured-Manual%E2%80%89%F0%9F%93%93-blue?color=ccfaff">](https://jdujava.github.io/TeXtured/thesis.pdf).
-It showcases the features of `TeXtured` template and provides a guide on how to use them.
 
 > [!NOTE]
 > Please note that the documentation is still a work-in-progress 🚧,
@@ -24,11 +9,6 @@ It showcases the features of `TeXtured` template and provides a guide on how to 
 > If you find something interesting or useful, but adopting the whole template
 > is simply too much, feel free to just copy and use relevant parts of the code.
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jdujava/TeXtured&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=jdujava/TeXtured&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=jdujava/TeXtured&type=Date" />
-</picture>
 
 ## 🏗️ Building
 
@@ -51,11 +31,6 @@ LaTeX build tools:
 - `pdflatex`/`lualatex` - LaTeX engine (you can choose one in `.latexmkrc`)
 - `biber` - bibliography processing tool for `biblatex`
 
-> [!WARNING]
-> At this point it is unclear what is the minimal required LaTeX installation.
-> Full `TeX Live` distribution is surely enough, since it is used in GitHub Actions
-> to automatically build the latest version of the 
-> [<img align="center" alt="TeXtured Manual" src="https://img.shields.io/badge/TeXtured-Manual%E2%80%89%F0%9F%93%93-blue?color=ccfaff">](https://jdujava.github.io/TeXtured/thesis.pdf).
 
 > [!NOTE]
 > Some scripts assume `linux` environment. These include:
@@ -72,14 +47,4 @@ Version control (optional):
 - `git-lfs` - [Git Large File Storage](https://git-lfs.github.com/) - for storing PDFs, figures, etc.
 
 
-## 📜 License
 
-Exceptions:
-- The MFF CUNI logo `MFF-logo.pdf` is property of the corresponding faculty, see [MFF Visual Identity](https://www.mff.cuni.cz/en/faculty/visual-identity).
-- Figure `parallel-plate-capacitor.svg` (with corresponding files) is property of Jonáš Dujava.
-
-[<img align="center" alt="License: CC0-1.0" src="https://licensebuttons.net/p/zero/1.0/88x31.png">](https://creativecommons.org/publicdomain/zero/1.0/)
- All other files are marked with
-[<img align="center" alt="License: CC0-1.0" src="https://img.shields.io/github/license/jdujava/TeXtured?color=fbe2ff">](https://creativecommons.org/publicdomain/zero/1.0/).
-
-Even though you are free to use the source code of `TeXtured` any way you like, attribution/acknowledgement is welcome.
